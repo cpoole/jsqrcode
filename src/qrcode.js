@@ -33,7 +33,7 @@ export default function QrCode() {
 
 
 QrCode.prototype.decode = function(src, data) {
-
+  console.log("yo from decode");
   var decode = (function() {
 
     try {
